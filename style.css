@@ -1111,7 +1111,7 @@ nav {
 }
 
 .certificate-item img {
-  width: 350px;   /* можно подстроить под твой сайт */
+  width: 350px;   
   height: auto;
   border: 2px solid #ddd;
   border-radius: 8px;

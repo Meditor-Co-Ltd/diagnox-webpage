@@ -1073,3 +1073,26 @@ nav {
     font-size: 1rem;
   }
 }
+
+#top_menu {
+  font-size: 22px;
+}
+
+.logo img {
+  width: 120px;
+  height: 120px;
+}
+
+.navbar-brand.logo img {
+  width: 120px !important;
+  height: 60px !important;
+}
+
+/* #top_menu .nav-link.active {
+  color: #ffffff !important; 
+  font-weight: bold; 
+} */
+
+#top_menu .nav-link.active > span {
+  color: #ffffff !important;
+}

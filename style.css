@@ -1096,3 +1096,29 @@ nav {
 #top_menu .nav-link.active > span {
   color: #ffffff !important;
 }
+
+
+.certificates-section .section-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.certificates-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* расстояние между картинками */
+}
+
+.certificate-item img {
+  width: 350px;   /* можно подстроить под твой сайт */
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.certificate-item img:hover {
+  transform: scale(1.05);
+}

@@ -74,18 +74,24 @@
               >
                 <li role="presentation" class="nav-item">
                   <a role="menuitem" href="./product/" class="nav-link">
+                    <h4>
                     <span>Product</span>
+                    </h4>
                   </a>
                 </li>
                 <li role="presentation" class="nav-item">
                   <a role="menuitem" href="./innovation/" class="nav-link">
+                    <h4>
                     <span>Innovation</span>
+                    </h4>
                   </a>
                 </li>
 
                 <li role="presentation" class="nav-item">
                   <a role="menuitem" href="./about/" class="nav-link">
-                    <span>About Us</span>
+                    <h4>
+                      <span>About Us</span>
+                    </h4>
                   </a>
                 </li>
               </ul>
@@ -163,21 +169,28 @@
                 class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100"
               >
                 <ul class="navbar-nav">
-                  <ul role="menu" class="nav navbar-nav top_menu">
+                  <!-- side menu -->
+                  <ul role="menu" class="nav navbar-nav top_menu  top_menu pe-2">
                     <li role="presentation" class="nav-item">
                       <a role="menuitem" href="./product/" class="nav-link">
-                        <span>Product</span>
+                        <h4>
+                          <span>Product</span>
+                        </h4>
                       </a>
                     </li>
                     <li role="presentation" class="nav-item">
                       <a role="menuitem" href="./innovation/" class="nav-link">
-                        <span>Innovation</span>
+                        <h4>
+                          <span>Innovation</span>
+                        </h4>
                       </a>
                     </li>
 
                     <li role="presentation" class="nav-item">
                       <a role="menuitem" href="./about/" class="nav-link">
+                        <h4>
                         <span>About Us</span>
+                        </h4>
                       </a>
                     </li>
                   </ul>
@@ -191,7 +204,7 @@
                     >
                       <div class="container">
                         <a
-                          href="./product/"
+                          href="./Product/"
                           class="oe_unremovable btn_cta w-100 btn btn-custom text-o-color-4 bg-o-color-2 rounded-circle btn-sm w-100"
                           style="border-width: 0px; border-style: solid"
                           >BUY</a
@@ -232,10 +245,12 @@
               </h1>
               <p style="text-align: center"><br /></p>
               <p class="lead" style="text-align: center">
-                Experience the future of diabetes care with DiagnoX.<br />The
+                <h3 style="text-align: center"> 
+                  Experience the future of diabetes care with DiagnoX.<br />The
                 first non-invasive glucose monitoring device using advanced
                 light sensor technology.<br />No needles, no pain, just precise
                 results.
+                </h3>
               </p>
 
               <p class="lead" style="text-align: center"><br /></p>
@@ -260,14 +275,14 @@
           </section>
 
           <section
-            class="s_references o_colored_level pt16 pb24 o_cc o_cc5"
+            class="s_references o_colored_level pt16 pb24"
             data-snippet="s_references"
             data-name="References"
           >
             <div class="container">
-              <h2 style="text-align: center">PARTNERS</h2>
+              <h2 style="text-align: center; padding-bottom: 60px;">PARTNERS</h2>
               <div class="row align-items-stretch">
-                <div
+                <!-- <div
                   class="pt16 pb16 o_colored_level col-lg-2 o_visible"
                   style="
                     animation-name: o_anim_fade_in;
@@ -311,10 +326,34 @@
                   <p style="font-size: 50px; font-weight: bold">
                     Meditor Co Ltd
                   </p>
-                </div>
+                </div> -->
+
+<div class="row d-flex align-items-stretch text-center">
+  <div class="pt16 pb16 o_colored_level col-lg-3 o_visible d-flex flex-column align-items-center justify-content-between">
+    <img src="assets/ktest-logo.gif"
+         class="img-fluid o_we_custom_image mb-2"
+         style="max-height: 100px; object-fit: contain;" />
+    <p class="mt-2 mb-0 fw-bold">K-Test</p>
+  </div>
+
+  <div class="pt16 pb16 o_colored_level col-lg-3 o_visible d-flex flex-column align-items-center justify-content-between">
+    <img src="assets/KShine-logo.avif"
+         class="img-fluid o_we_custom_image mb-2"
+         style="max-height: 100px; object-fit: contain;" />
+    <p class="mt-2 mb-0 fw-bold">K-Shine</p>
+  </div>
+
+  <div class="pt16 pb16 o_colored_level col-lg-3 o_visible d-flex flex-column align-items-center justify-content-between">
+    <img src="assets/soltek-logo.png"
+         class="img-fluid o_we_custom_image mb-2"
+         style="max-height: 100px; object-fit: contain;" />
+    <p class="mt-2 mb-0 fw-bold">Soltek Electronics</p>
+  </div>
+</div>
+
                 <!-- <div class="pt16 pb16 o_colored_level col-lg-3 o_visible" style="animation-name: o_anim_fade_in; animation-play-state: paused; visibility: visible">
                   <img
-                    src="assets/US_gris.png"
+                    src="assets/ktest-logo.gif"
                     alt=""
                     class="img img-fluid mx-auto o_we_custom_image"
                     data-original-id="13735"
@@ -331,7 +370,7 @@
                 </div>
                 <div class="pt16 pb16 o_colored_level col-lg-3 o_visible" style="animation-delay: 0.3s; animation-name: o_anim_fade_in; animation-play-state: paused; visibility: visible">
                   <img
-                    src="assets/Virgen del Rocío_gris.png"
+                    src="assets/KShine-logo.avif"
                     alt=""
                     class="img img-fluid mx-auto o_we_custom_image"
                     data-original-id="13736"
@@ -348,7 +387,7 @@
                 </div>
                 <div class="pt16 pb16 o_colored_level col-lg-3 o_visible" style="animation-delay: 0.6s; animation-name: o_anim_fade_in; animation-play-state: paused; visibility: visible">
                   <img
-                    src="assets/Macarena_gros.png"
+                    src="assets/soltek-logo.png"
                     alt=""
                     class="img img-fluid mx-auto o_we_custom_image"
                     data-original-id="13737"
@@ -362,8 +401,8 @@
                     loading="eager"
                     data-mimetype-before-conversion="image/png"
                   />
-                </div>
-                <div class="pt16 pb16 o_colored_level col-lg-3 o_visible" style="animation-delay: 0.9s; animation-name: o_anim_fade_in; animation-play-state: paused; visibility: visible">
+                </div> -->
+                <!-- <div class="pt16 pb16 o_colored_level col-lg-3 o_visible" style="animation-delay: 0.9s; animation-name: o_anim_fade_in; animation-play-state: paused; visibility: visible">
                   <img
                     src="assets/JA_SAS_gris.png"
                     alt=""
@@ -453,12 +492,13 @@
                   JOIN THE PAIN-FREE<br />MEASUREMENT REVOLUTION!
                 </p>
               </h2>
-              <p class="lead text-o-color-4" style="text-align: left">
+                <h4 style="text-align: left">
                 Reduce discomfort and needle sticks. With this noninvasive
                 technology,<br />monitoring your glucose is quick, painless, and
                 convenient.&nbsp;<br />More freedom, more peace of mind, more
                 you.
-              </p>
+                </h4>
+              
               <p class="lead" style="text-align: left"><br /></p>
               <p style="text-align: left">
                 <a
@@ -800,11 +840,9 @@
                   class="o_grid_item o_colored_level g-col-lg-6 g-height-2 col-lg-6"
                   style="z-index: 5; grid-area: 2 / 2 / 4 / 8"
                 >
-                  <p style="text-align: center">
-                    <span style="font-size: 36px"
-                      ><p class="text-o-color-3">DOWNLOAD OUR APP!</p></span
-                    >
-                  </p>
+                <p style="text-align: center; font-size: 36px; color: #000; font-weight: 700; margin: 0;">
+  DOWNLOAD OUR APP!
+</p>
                 </div>
                 <div
                   class="o_grid_item o_grid_item_image o_colored_level o_grid_item_image_contain g-col-lg-2 g-height-3 col-lg-2"
@@ -871,9 +909,16 @@
                     data-lazy-loading-initial-min-height=""
                   />
                 </div>
+                
               </div>
+              <h6 style="text-align: center; padding-top: 30px; color: #000;">  
+              The product is not officially released yet — the official launch is planned for early 2026
+              </h6>
             </div>
           </section>
+
+          <!-- padding element -->
+<div style="padding: 20px;"></div>
 
           <section
             class="s_title o_colored_level s_custom_snippet pt0 pb88"

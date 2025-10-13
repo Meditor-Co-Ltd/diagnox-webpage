@@ -60,7 +60,7 @@ saveEmailBtn.addEventListener("click", async () => {
 
   const { success } = await saveEmail(email);
   if (success) {
-    alert("Saved.");
+    alert("We will contact you soon by email!");
   }
 
   buyerEmail.value = "";

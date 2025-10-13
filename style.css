@@ -1093,9 +1093,9 @@ nav {
   font-weight: bold; 
 } */
 
-#top_menu .nav-link.active > span {
+/* #top_menu .nav-link.active > span {
   color: #ffffff !important;
-}
+} */
 
 
 .certificates-section .section-title {
@@ -1122,3 +1122,33 @@ nav {
 .certificate-item img:hover {
   transform: scale(1.05);
 }
+
+/* Space between menu items */
+.top_menu .nav-item {
+  margin-right: 30px; /* adjust spacing as needed */
+}
+
+
+
+.top_menu .nav-link.active {
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 2px; /* уменьшите значение (было 4px) */
+  transition: border-color 0.3s;
+}
+
+.top_menu .nav-link.active h4,
+.top_menu .nav-link.active h4 span {
+  color: #ffffff !important;
+}
+
+/* Optional: hover effect */
+/* .top_menu .nav-link h4 span:hover {
+  border-bottom: 3px solid #555;
+  transition: border-color 0.3s;
+} */
+
+/* .top_menu .nav-link.active h4 {
+  border-bottom: 3px solid #000;
+  display: inline-block; 
+  padding-bottom: 4px;
+} */

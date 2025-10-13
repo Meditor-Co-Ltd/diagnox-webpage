@@ -1125,14 +1125,14 @@ nav {
 
 /* Space between menu items */
 .top_menu .nav-item {
-  margin-right: 30px; /* adjust spacing as needed */
+  margin-right: 30px !important; /* adjust spacing as needed */
 }
 
 
 
 .top_menu .nav-link.active {
-  border-bottom: 3px solid #ffffff;
-  padding-bottom: 2px; /* уменьшите значение (было 4px) */
+  border-bottom: 3px solid #ffffff !important;
+  padding-bottom: 2px !important;
   transition: border-color 0.3s;
 }
 

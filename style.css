@@ -1169,3 +1169,29 @@ nav {
   display: inline-block; 
   padding-bottom: 4px;
 } */
+
+
+ .product-title {
+    margin-bottom: 12px;
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+  }
+
+  .product-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    padding: 0 100px;
+  }
+
+  /* Make it responsive on mobile */
+  @media (max-width: 768px) {
+    .product-title {
+      font-size: 24px;
+    }
+
+    .product-image {
+      padding: 0 20px;
+    }
+  }

@@ -1171,7 +1171,13 @@ nav {
 } */
 
 
- .product-title {
+  .product-section {
+    max-width: 1200px; /* same as your content area */
+    margin: 0 auto;
+    padding: 0 20px; /* small side padding */
+  }
+
+  .product-title {
     margin-bottom: 12px;
     font-size: 36px;
     color: #000;
@@ -1179,19 +1185,21 @@ nav {
   }
 
   .product-image {
+    display: block;
     width: 100%;
+    max-width: 800px; /* limit image width */
+    margin: 0 auto;
     height: auto;
     object-fit: contain;
-    padding: 0 100px;
+    padding: 0;
   }
 
-  /* Make it responsive on mobile */
   @media (max-width: 768px) {
     .product-title {
       font-size: 24px;
     }
-
     .product-image {
-      padding: 0 20px;
+      max-width: 100%;
+      padding: 0 10px;
     }
   }
